@@ -1,5 +1,5 @@
 {
-  "name": "my-turborepo",
+  "name": "mesamatic",
   "private": true,
   "scripts": {
     "build": "turbo run build",
