@@ -1,0 +1,9 @@
+{
+	"name": "do_rpc",
+	"version": "0.0.0",
+	"private": true,
+	"scripts": {
+		"deploy": "wrangler deploy",
+		"dev": "wrangler dev --port 5666 --inspector-port 5667"
+	}
+}
