@@ -27,8 +27,8 @@
 
    "routes": [
     {
-      "pattern": "*user.site/*",
-      "zone_name": "user.site"
+      "pattern": "*uster.site/*",
+      "zone_name": "uster.site"
     },
   ],
 
