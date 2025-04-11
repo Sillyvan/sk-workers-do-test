@@ -1,5 +1,5 @@
 {
-	"name": "do_rpc",
+	"name": "dorpc",
 	"version": "0.0.0",
 	"private": true,
 	"scripts": {

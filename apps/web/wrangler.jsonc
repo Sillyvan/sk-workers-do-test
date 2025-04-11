@@ -20,8 +20,8 @@
 	"placement": { "mode": "smart" },
   "services": [
     {
-      "binding": "DO_RPC",
-      "service": "do_rpc",
+      "binding": "DORPC",
+      "service": "dorpc",
     }
   ],
 

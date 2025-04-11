@@ -4,43 +4,43 @@
  */
 {
 	"$schema": "node_modules/wrangler/config-schema.json",
-	"name": "do_rpc",
+	"name": "dorpc",
 	"main": "src/index.ts",
 	"compatibility_date": "2025-04-09",
 	"observability": {
 		"enabled": true
 	},
-	"placement": { "mode": "smart" },
-	  "services": [
-    {
-      "binding": "DO_RPC",
-      "service": "do_rpc"
-    }
-  ],
+	"placement": {
+		"mode": "smart"
+	},
+	"services": [
+		{
+			"binding": "DORPC",
+			"service": "dorpc"
+		}
+	],
 	"durable_objects": {
-    "bindings": [
-      {
-        "name": "DO",
-        "class_name": "DO"
-      }
-    ]
-  },
+		"bindings": [
+			{
+				"name": "DO",
+				"class_name": "DO"
+			}
+		]
+	},
 	"migrations": [
-    {
-      "tag": "v1",
-      "new_sqlite_classes": [
-        "DO"
-      ]
-    }
-  ],
-
+		{
+			"tag": "v1",
+			"new_sqlite_classes": [
+				"DO"
+			]
+		}
+	],
 	/**
 	 * Bindings
 	 * Bindings allow your Worker to interact with resources on the Cloudflare Developer Platform, including
 	 * databases, object storage, AI inference, real-time communication and more.
 	 * https://developers.cloudflare.com/workers/runtime-apis/bindings/
 	 */
-
 	/**
 	 * Environment Variables
 	 * https://developers.cloudflare.com/workers/wrangler/configuration/#environment-variables
@@ -50,13 +50,11 @@
 	 * Note: Use secrets to store sensitive data.
 	 * https://developers.cloudflare.com/workers/configuration/secrets/
 	 */
-
 	/**
 	 * Static Assets
 	 * https://developers.cloudflare.com/workers/static-assets/binding/
 	 */
 	// "assets": { "directory": "./public/", "binding": "ASSETS" },
-
 	/**
 	 * Service Bindings (communicate between multiple Workers)
 	 * https://developers.cloudflare.com/workers/wrangler/configuration/#service-bindings

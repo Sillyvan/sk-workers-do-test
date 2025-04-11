@@ -2,7 +2,7 @@
 // for information about these interfaces
 declare namespace Cloudflare {
 	interface Env {
-		DO_RPC: Service<import('../../services/src/index').default>;
+		DORPC: Service<import('../../services/src/index').default>;
 		ASSETS: Fetcher;
 	}
 }

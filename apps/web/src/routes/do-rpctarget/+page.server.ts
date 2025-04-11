@@ -2,7 +2,7 @@ import type { PageServerLoad } from './$types';
 import type { Actions } from './$types';
 
 export const load: PageServerLoad = async ({ platform }) => {
-	const itemsStub = await platform?.env.DO_RPC.getStub();
+	const itemsStub = await platform?.env.DORPC.getStub();
 	const items = await itemsStub?.getItems();
 	const items2 = await itemsStub?.getItems();
 	const moreItems = await itemsStub?.getMoreItems();
@@ -11,11 +11,11 @@ export const load: PageServerLoad = async ({ platform }) => {
 
 export const actions = {
 	add: async ({ platform }) => {
-		const itemsStub = await platform?.env.DO_RPC.getStub();
+		const itemsStub = await platform?.env.DORPC.getStub();
 		await itemsStub?.add(crypto.randomUUID());
 	},
 	remove: async ({ platform }) => {
-		const itemsStub = await platform?.env.DO_RPC.getStub();
+		const itemsStub = await platform?.env.DORPC.getStub();
 		await itemsStub?.remove();
 	}
 } satisfies Actions;

@@ -3,7 +3,7 @@ import { DO } from './do';
 
 export { DO };
 
-export default class DO_RPC extends WorkerEntrypoint<Env> {
+export default class DORPC extends WorkerEntrypoint<Env> {
 	// variant 1
 	// worker pc calling do rpc
 	async add(item: string) {
