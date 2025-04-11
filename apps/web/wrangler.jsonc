@@ -25,6 +25,13 @@
     }
   ],
 
+   "routes": [
+    {
+      "pattern": "*.user.site/*",
+      "zone_name": "user.site"
+    },
+  ],
+
 	/**
 	 * Bindings
 	 * Bindings allow your Worker to interact with resources on the Cloudflare Developer Platform, including
