@@ -29,7 +29,7 @@
     {
     "pattern": "uster.site",
       "custom_domain": true
-}
+},
     {
       "pattern": "*uster.site/*",
       "zone_name": "uster.site"
