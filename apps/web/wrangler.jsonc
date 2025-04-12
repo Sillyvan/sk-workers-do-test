@@ -26,12 +26,12 @@
   ],
   "routes": [
     {
-      "pattern": "exmaple.com",
+      "pattern": "uster.site",
       "custom_domain": true
     },
     {
-      "pattern": "*exmaple.com/*",
-      "zone_name": "exmaple.com"
+      "pattern": "*uster.site/*",
+      "zone_name": "uster.site"
     },
   ],
 
