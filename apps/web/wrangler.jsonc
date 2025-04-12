@@ -27,9 +27,17 @@
 
    "routes": [
     {
-    "pattern": "uster.site",
+      "pattern": "uster.site",
       "custom_domain": true
-},
+    },
+    {
+      "pattern": "admin.uster.site",
+      "custom_domain": true
+    },
+    {
+      "pattern": "staff.uster.site",
+      "custom_domain": true 
+    },
     {
       "pattern": "*uster.site/*",
       "zone_name": "uster.site"
