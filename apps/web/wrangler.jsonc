@@ -30,10 +30,6 @@
       "custom_domain": true
     },
     {
-      "pattern": "admin.exmaple.com",
-      "custom_domain": true
-    },
-    {
       "pattern": "*exmaple.com/*",
       "zone_name": "exmaple.com"
     },
