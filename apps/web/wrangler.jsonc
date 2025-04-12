@@ -24,23 +24,18 @@
       "service": "dorpc",
     }
   ],
-
-   "routes": [
+  "routes": [
     {
-      "pattern": "uster.site",
+      "pattern": "exmaple.com",
       "custom_domain": true
     },
     {
-      "pattern": "admin.uster.site",
+      "pattern": "admin.exmaple.com",
       "custom_domain": true
     },
     {
-      "pattern": "staff.uster.site",
-      "custom_domain": true 
-    },
-    {
-      "pattern": "*uster.site/*",
-      "zone_name": "uster.site"
+      "pattern": "*exmaple.com/*",
+      "zone_name": "exmaple.com"
     },
   ],
 
